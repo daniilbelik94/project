@@ -113,7 +113,7 @@ INSERT INTO users (name, email, password_hash, role) VALUES
 - **Spielplan**: Alle Spiele mit Logos, Gegnern und Ergebnissen
   ![Spielenseite](screenshots/spielen.png)
 - **Team-Seite**: Mannschaftsübersicht mit Fotos und Infos  
-  ![Teamseite](screenshots/teamseite.png)
+  ![Teamseite](screenshots/Teamseite.png)
 
 ### Mitgliederbereich
 
@@ -180,25 +180,19 @@ INSERT INTO users (name, email, password_hash, role) VALUES
 ## 📸 Screenshots
 
 1. **Teamübersicht**  
-   ![Teamseite](screenshots/teamseite.png)
+   ![Teamseite](screenshots/Teamseite.png)
 2. **Adminbereich**
-  
-  ![Teamseite](screenshots/dashboard.png)
-3. **Profil & Dokumente**  
-   ![Profil](screenshots/profil.png)  
-   ![Dokumente](screenshots/dokumente.png)
-3. **Finanzen**  
-   ![Finanzen](screenshots/finanzen.png)
-   ![Finanzen](screenshots/finanzen_buchen.png)
-4. **Spiele verwalten**  
-   ![Spiele verwalten](screenshots/spiele.png)
-   ![Spiele verwalten](screenshots/spiel_verwaltung.png)
-5. **Benutzerverwaltung**  
-   ![Benutzerverwaltung](screenshots/benutzerverwaltung.png)
-   ![Benutzer bearbeiten](screenshots/benutzer_bearbeiten.png)
-6. **Unit-Tests**  
-   ![Unit-Test User](screenshots/unittest_user.png)  
-   ![Unit-Test Dokument](screenshots/unittest_doc.png)
+
+![Adminbereich](screenshots/dashboard.png) 3. **Profil & Dokumente**  
+ ![Profil](screenshots/profil.png)  
+ ![Dokumente](screenshots/dokumente.png) 3. **Finanzen**  
+ ![Finanzen](screenshots/finanzen.png) 4. **Spiele verwalten**  
+ ![Spiele verwalten](screenshots/spiele.png)
+![Spiele verwalten](screenshots/spiel_verwaltung.png) 5. **Benutzerverwaltung**  
+ ![Benutzerverwaltung](screenshots/benutzerverwaltung.png)
+![Benutzer bearbeiten](screenshots/benutzer_bearbeiten.png) 6. **Unit-Tests**  
+ ![Unit-Test User](screenshots/unittest_user.png)  
+ ![Unit-Test Dokument](screenshots/unittest_doc.png)
 
 ---
 
@@ -215,12 +209,32 @@ INSERT INTO users (name, email, password_hash, role) VALUES
 
 ## 📜 Lizenz
 
-MIT (oder eigene Lizenz eintragen)
+MIT
 
 ---
 
 **Erstellt für INF 1 Fallstudie I, Klasse: FAG 46, Dozent: Milovan Kristo, Abgabe: 11.07.2025**
 
+![PHP](https://img.shields.io/badge/PHP-8.2-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ---
 
-**Wenn du weitere Screenshots oder spezielle Hinweise einfügen möchtest, gib Bescheid!**
+## Feature-Übersicht
+
+| Feature               | Status    | Beschreibung                      |
+| --------------------- | --------- | --------------------------------- |
+| Benutzerverwaltung    | ✅ Fertig | Rollen, Avatare, Bearbeiten, etc. |
+| Spielplan             | ✅ Fertig | Hinzufügen, Logos, Ergebnisse     |
+| Dokumentenverwaltung  | ✅ Fertig | Upload, Vorschau, Sortierung      |
+| Finanzen              | ✅ Fertig | Filter, Export, CSV               |
+| Team-Infos            | ✅ Fertig | Kader, Fotos, Club-Info           |
+| Profil-Management     | ✅ Fertig | Passwort/E-Mail ändern, Verlauf   |
+| Unit-Tests            | ✅ Fertig | Modelle, Dokumente, User          |
+| Server-/Client-Valid. | ✅ Fertig | Formulare, E-Mail, Dateigröße     |
+| Admin-Logging         | ✅ Fertig | Aktionen protokollieren           |
+| Toast-Notifications   | ✅ Fertig | Fehler- und Erfolgsmeldungen      |
+| Mobile-Optimierung    | ✅ Fertig | Responsive Design                 |
