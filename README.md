@@ -5,6 +5,34 @@ Verwaltung von Mitgliedern, Spielen, Finanzen und Dokumenten – alles in einer 
 
 ---
 
+**Erstellt für INF 1 Fallstudie I, Klasse: FAG 46, Dozent: Milovan Kristo, Abgabe: 11.07.2025**
+
+![PHP](https://img.shields.io/badge/PHP-8.2-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+
+## Feature-Übersicht
+
+| Feature               | Status    | Beschreibung                      |
+| --------------------- | --------- | --------------------------------- |
+| Benutzerverwaltung    | ✅ Fertig | Rollen, Avatare, Bearbeiten, etc. |
+| Spielplan             | ✅ Fertig | Hinzufügen, Logos, Ergebnisse     |
+| Dokumentenverwaltung  | ✅ Fertig | Upload, Vorschau, Sortierung      |
+| Finanzen              | ✅ Fertig | Filter, Export, CSV               |
+| Team-Infos            | ✅ Fertig | Kader, Fotos, Club-Info           |
+| Profil-Management     | ✅ Fertig | Passwort/E-Mail ändern, Verlauf   |
+| Unit-Tests            | ✅ Fertig | Modelle, Dokumente, User          |
+| Server-/Client-Valid. | ✅ Fertig | Formulare, E-Mail, Dateigröße     |
+| Admin-Logging         | ✅ Fertig | Aktionen protokollieren           |
+| Toast-Notifications   | ✅ Fertig | Fehler- und Erfolgsmeldungen      |
+| Mobile-Optimierung    | ✅ Fertig | Responsive Design                 |
+
+---
+
 ## 📂 Projektstruktur
 
 ```
@@ -217,28 +245,4 @@ MIT
 
 ---
 
-**Erstellt für INF 1 Fallstudie I, Klasse: FAG 46, Dozent: Milovan Kristo, Abgabe: 11.07.2025**
 
-![PHP](https://img.shields.io/badge/PHP-8.2-blue)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-
----
-
-## Feature-Übersicht
-
-| Feature               | Status    | Beschreibung                      |
-| --------------------- | --------- | --------------------------------- |
-| Benutzerverwaltung    | ✅ Fertig | Rollen, Avatare, Bearbeiten, etc. |
-| Spielplan             | ✅ Fertig | Hinzufügen, Logos, Ergebnisse     |
-| Dokumentenverwaltung  | ✅ Fertig | Upload, Vorschau, Sortierung      |
-| Finanzen              | ✅ Fertig | Filter, Export, CSV               |
-| Team-Infos            | ✅ Fertig | Kader, Fotos, Club-Info           |
-| Profil-Management     | ✅ Fertig | Passwort/E-Mail ändern, Verlauf   |
-| Unit-Tests            | ✅ Fertig | Modelle, Dokumente, User          |
-| Server-/Client-Valid. | ✅ Fertig | Formulare, E-Mail, Dateigröße     |
-| Admin-Logging         | ✅ Fertig | Aktionen protokollieren           |
-| Toast-Notifications   | ✅ Fertig | Fehler- und Erfolgsmeldungen      |
-| Mobile-Optimierung    | ✅ Fertig | Responsive Design                 |
