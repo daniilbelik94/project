@@ -1,9 +1,4 @@
-# ⚽ Vereinsmanagement-System FC Musterstadt
 
-Ein webbasiertes, sicheres und modernes Vereinsmanagement-System für den Amateur-Fußballverein **FC Musterstadt**.
-Verwaltung von Mitgliedern, Spielen, Finanzen und Dokumenten – alles in einer intuitiven Oberfläche.
-
----
 
 **Erstellt für INF 1 Fallstudie I, Klasse: FAG 46, Dozent: Milovan Kristo, Abgabe: 11.07.2025**
 
@@ -14,6 +9,15 @@ Verwaltung von Mitgliedern, Spielen, Finanzen und Dokumenten – alles in einer 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
+
+# ⚽ Vereinsmanagement-System FC Musterstadt
+
+Ein webbasiertes, sicheres und modernes Vereinsmanagement-System für den Amateur-Fußballverein **FC Musterstadt**.
+Verwaltung von Mitgliedern, Spielen, Finanzen und Dokumenten – alles in einer intuitiven Oberfläche.
+
+---
+
+
 
 ## Feature-Übersicht
 
