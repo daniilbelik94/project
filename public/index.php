@@ -1,7 +1,6 @@
 <?php
 
 
-// Автозагрузка классов (простая)
 spl_autoload_register(function ($class) {
     $path = __DIR__ . '/../app/' . str_replace('\\', '/', $class) . '.php';
     if (file_exists($path)) {
@@ -9,7 +8,7 @@ spl_autoload_register(function ($class) {
     }
 });
 
-// Базовый роутинг (очень простой)
+
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri = trim($uri, '/');
 
@@ -18,7 +17,7 @@ if ($uri === '' || $uri === 'index.php') {
     exit;
 }
 
-// Пример: /home
+
 if ($uri === 'home') {
     $controller = new \Controllers\HomeController();
     $controller->index();
@@ -52,14 +51,14 @@ if ($uri === 'logout') {
     exit;
 }
 
-// Роутинг для /spielplan
+
 if ($uri === 'spielplan') {
     $controller = new \Controllers\MatchController();
     $controller->index();
     exit;
 }
 
-// Роутинг для /profil
+
 if ($uri === 'profil' && $_SERVER['REQUEST_METHOD'] === 'GET') {
     $controller = new \Controllers\ProfileController();
     $controller->index();
@@ -91,7 +90,7 @@ if ($uri === 'profil/change-email' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-// Роутинг для /admin (GET) для AdminController@index.
+
 if ($uri === 'admin' && $_SERVER['REQUEST_METHOD'] === 'GET') {
     $controller = new \Controllers\AdminController();
     $controller->index();
@@ -185,13 +184,11 @@ if ($uri === 'admin/finances-paginated' && $_SERVER['REQUEST_METHOD'] === 'GET')
     exit;
 }
 
-// Роутинг для /team
 if ($uri === 'team') {
     $controller = new \Controllers\TeamController();
     $controller->index();
     exit;
 }
 
-// TODO: добавить обработку других маршрутов
 http_response_code(404);
 echo 'Seite nicht gefunden.';

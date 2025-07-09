@@ -111,8 +111,9 @@ INSERT INTO users (name, email, password_hash, role) VALUES
 ### Öffentlicher Bereich
 
 - **Spielplan**: Alle Spiele mit Logos, Gegnern und Ergebnissen
+  ![Spielenseite](screenshots/spielen.png)
 - **Team-Seite**: Mannschaftsübersicht mit Fotos und Infos  
-  ![Teamseite](screenshots/team.png)
+  ![Teamseite](screenshots/teamseite.png)
 
 ### Mitgliederbereich
 
@@ -124,7 +125,8 @@ INSERT INTO users (name, email, password_hash, role) VALUES
 ### Admin-Bereich
 
 - **Benutzerverwaltung**: Suchen, Bearbeiten, Löschen, Rollen, Avatare  
-  ![Benutzerverwaltung](screenshots/benutzerverwaltung.png)
+  ![Benutzerverwaltung](screenshots/benutzerverwaltung.png screenshots/benutzer_bearbeiten.png)
+
 - **Spiele verwalten**: Hinzufügen, Bearbeiten, Gegner-Logos  
   ![Spiele verwalten](screenshots/spiele.png)
 - **Finanzen**: Einnahmen/Ausgaben, Filter, CSV-Export, Pagination  
@@ -178,16 +180,22 @@ INSERT INTO users (name, email, password_hash, role) VALUES
 ## 📸 Screenshots
 
 1. **Teamübersicht**  
-   ![Teamseite](screenshots/team.png)
-2. **Profil & Dokumente**  
+   ![Teamseite](screenshots/teamseite.png)
+2. **Adminbereich**
+  
+  ![Teamseite](screenshots/dashboard.png)
+3. **Profil & Dokumente**  
    ![Profil](screenshots/profil.png)  
    ![Dokumente](screenshots/dokumente.png)
 3. **Finanzen**  
    ![Finanzen](screenshots/finanzen.png)
+   ![Finanzen](screenshots/finanzen_buchen.png)
 4. **Spiele verwalten**  
    ![Spiele verwalten](screenshots/spiele.png)
+   ![Spiele verwalten](screenshots/spiel_verwaltung.png)
 5. **Benutzerverwaltung**  
    ![Benutzerverwaltung](screenshots/benutzerverwaltung.png)
+   ![Benutzer bearbeiten](screenshots/benutzer_bearbeiten.png)
 6. **Unit-Tests**  
    ![Unit-Test User](screenshots/unittest_user.png)  
    ![Unit-Test Dokument](screenshots/unittest_doc.png)
